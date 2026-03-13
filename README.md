@@ -2,6 +2,8 @@
 
 Türkiye'deki EDS (Elektronik Denetleme Sistemi) hız kameralarını haritada gösteren ve yaklaşırken uyarı veren ücretsiz uygulama.
 
+> ⚠️ **Önemli:** Kamera konumları resmi EGM verilerine dayanmaktadır ancak zamanla değişmiş olabilir. En güncel ve kesin bilgi için lütfen uygulamadaki haritayı inceleyin. Bu uygulama yalnızca bilgilendirme amaçlıdır — trafik kurallarına her zaman uyun.
+
 ## Özellikler
 
 - 🗺️ 1572 EDS kamerası Google Haritalar üzerinde
