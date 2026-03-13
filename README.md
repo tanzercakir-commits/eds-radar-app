@@ -11,7 +11,6 @@ Türkiye'deki EDS (Elektronik Denetleme Sistemi) hız kameralarını haritada g�
 - 🔍 Kamera tipi filtreleme (PTS-EDS, Belediye, Otoyol)
 - 📋 Kamera listesi ve arama
 - ⚡ Arka planda çalışma (ekran kapalıyken)
-- 🆓 Tamamen ücretsiz, reklamsız (Android)
 
 ## İndir
 
