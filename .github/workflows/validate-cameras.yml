@@ -1,0 +1,25 @@
+name: Kamera Verisi Doğrula
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/data/cameras.json'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'assets/data/cameras.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Kamera verisi doğrula
+        run: python3 scripts/validate_cameras.py assets/data/cameras.json
