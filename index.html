@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDS Radar — Türkiye Hız Kamerası Uyarı Uygulaması</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fff;
+            padding: 40px 20px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 32px; margin-bottom: 8px; }
+        .subtitle { font-size: 18px; color: #666; margin-bottom: 32px; }
+        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+        p, li { font-size: 16px; margin-bottom: 12px; }
+        ul { padding-left: 24px; }
+        .download-btn {
+            display: inline-block;
+            background: #0066cc;
+            color: #fff;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-top: 16px;
+        }
+        .download-btn:hover { background: #0052a3; }
+        .note { font-size: 14px; color: #666; margin-top: 8px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .features { margin-top: 16px; }
+        .features li { margin-bottom: 8px; }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>EDS Radar</h1>
+    <p class="subtitle">Türkiye geneli hız kamerası uyarı uygulaması</p>
+
+    <p>EDS Radar, sürücüleri yaklaşan hız kameraları hakkında önceden uyararak güvenli sürüşü destekler. Türkiye genelindeki 1572 kamerayı harita üzerinde gösterir ve arka planda çalışarak sesli, titreşimli uyarı verir.</p>
+
+    <a href="https://github.com/tanzercakir-commits/eds-radar-app/releases/latest" class="download-btn">APK İndir</a>
+    <p class="note">Android 7.0 ve üzeri gereklidir.</p>
+
+    <h2>Özellikler</h2>
+    <ul class="features">
+        <li><strong>1572 kamera</strong> — EDS, Belediye EDS, Belediye ve OHTS kameraları</li>
+        <li><strong>Canlı harita</strong> — Google Maps üzerinde konum, filtreleme ve kümeleme</li>
+        <li><strong>Arka plan uyarı</strong> — Ekran kapalı bile ses, titreşim ve bildirim</li>
+        <li><strong>Hız göstergesi</strong> — Anlık hız ve yakın kamera mesafesi</li>
+        <li><strong>OHTS desteği</strong> — Ortalama hız hesaplama (giriş-çıkış eşleştirme)</li>
+        <li><strong>Özel kamera ekleme</strong> — Haritaya uzun basarak kendi noktalarınızı ekleyin</li>
+        <li><strong>Otomatik güncelleme</strong> — Yeni sürüm çıktığında bildirim</li>
+    </ul>
+
+    <h2>Kamera Veritabanı</h2>
+    <p>Kamera verileri EGM resmî kaynaklarından alınmıştır. Güncel veri dosyası: <a href="cameras.json">cameras.json</a></p>
+
+    <div class="footer">
+        <p><a href="privacy.html">Gizlilik Politikası</a> · <a href="https://github.com/tanzercakir-commits/eds-radar-app">GitHub</a></p>
+    </div>
+</body>
+</html>
