@@ -20,9 +20,7 @@ Türkiye genelindeki hız kameralarını harita üzerinde gösteren ve sürücü
 
 ## Kamera Veritabanı
 
-Kamera verileri EGM (Emniyet Genel Müdürlüğü) resmî kaynaklarından alınmıştır.
-
-- [`cameras.json`](assets/data/cameras.json) — 1572 kamera (EDS, Belediye EDS, Belediye, OHTS)
+Kamera verileri EGM (Emniyet Genel Müdürlüğü) resmî kaynaklarından alınmıştır. Uygulama 1572 kamerayı (EDS, Belediye EDS, Belediye, OHTS) içerir.
 
 ## Bağlantı
 
