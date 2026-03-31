@@ -19,7 +19,7 @@
         .subtitle { font-size: 18px; color: #666; margin-bottom: 32px; }
         h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
         p, li { font-size: 16px; margin-bottom: 12px; }
-        ul { padding-left: 24px; }
+        ul { padding-left: 0; list-style: none; }
         .download-btn {
             display: inline-block;
             background: #0066cc;
@@ -36,7 +36,8 @@
         a { color: #0066cc; text-decoration: none; }
         a:hover { text-decoration: underline; }
         .features { margin-top: 16px; }
-        .features li { margin-bottom: 8px; }
+        .features li { margin-bottom: 10px; font-size: 16px; }
+        .features .icon { margin-right: 8px; }
         .footer {
             margin-top: 48px;
             padding-top: 24px;
@@ -57,20 +58,26 @@
 
     <h2>Özellikler</h2>
     <ul class="features">
-        <li><strong>1572 kamera</strong> — EDS, Belediye EDS, Belediye ve OHTS kameraları</li>
-        <li><strong>Canlı harita</strong> — Google Maps üzerinde konum, filtreleme ve kümeleme</li>
-        <li><strong>Arka plan uyarı</strong> — Ekran kapalı bile ses, titreşim ve bildirim</li>
-        <li><strong>Hız göstergesi</strong> — Anlık hız ve yakın kamera mesafesi</li>
-        <li><strong>OHTS desteği</strong> — Ortalama hız hesaplama (giriş-çıkış eşleştirme)</li>
-        <li><strong>Özel kamera ekleme</strong> — Haritaya uzun basarak kendi noktalarınızı ekleyin</li>
-        <li><strong>Otomatik güncelleme</strong> — Yeni sürüm çıktığında bildirim</li>
+        <li><span class="icon">📷</span> <strong>1572 kamera</strong> — EDS, Belediye EDS, Belediye ve OHTS kameraları</li>
+        <li><span class="icon">🗺️</span> <strong>Canlı harita</strong> — Google Maps üzerinde konum, filtreleme ve kümeleme</li>
+        <li><span class="icon">🔔</span> <strong>Arka plan uyarı</strong> — Ekran kapalı bile ses, titreşim ve bildirim</li>
+        <li><span class="icon">🏎️</span> <strong>Hız göstergesi</strong> — Anlık hız ve yakın kamera mesafesi</li>
+        <li><span class="icon">🎯</span> <strong>OHTS desteği</strong> — Ortalama hız hesaplama (giriş-çıkış eşleştirme)</li>
+        <li><span class="icon">📌</span> <strong>Özel kamera ekleme</strong> — Haritaya uzun basarak kendi noktalarınızı ekleyin</li>
+        <li><span class="icon">🔄</span> <strong>Otomatik güncelleme</strong> — Yeni sürüm çıktığında bildirim</li>
     </ul>
 
     <h2>Kamera Veritabanı</h2>
     <p>Kamera verileri EGM resmî kaynaklarından alınmıştır. Güncel veri dosyası: <a href="cameras.json">cameras.json</a></p>
 
+    <h2>Bağlantı</h2>
+    <ul>
+        <li>📄 <a href="privacy.html">Gizlilik Politikası</a></li>
+        <li>💻 <a href="https://github.com/tanzercakir-commits/eds-radar-app">GitHub</a></li>
+    </ul>
+
     <div class="footer">
-        <p><a href="privacy.html">Gizlilik Politikası</a> · <a href="https://github.com/tanzercakir-commits/eds-radar-app">GitHub</a></p>
+        <p>&copy; 2026 EDS Radar</p>
     </div>
 </body>
 </html>
